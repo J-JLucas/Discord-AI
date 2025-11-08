@@ -1,0 +1,7 @@
+FROM modelNameHere
+
+SYSTEM """describe your bot's personality and behaviour here"""
+
+PARAMETER temperature 0.8
+PARAMETER top_p eg 0.9
+PARAMETER num_ctx 4096
