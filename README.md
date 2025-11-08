@@ -70,11 +70,11 @@ Then launch the bot:
 ```bash
 node index.js
 ```
-Invite your bot to a server and start a conversation!:
+Invite your bot to a server and start a conversation:
 ```
 @YourBotName hello, how are you doing?
 ```
-it will call your local model via the Ollama API and reply with the response.
+It will call your local model via the Ollama API and reply with the response.
 
 ## 🧩 Custom Ollama Models
 
@@ -101,7 +101,8 @@ ollama list
 ```
 Then reference your new model in your .env:
 ```
-MODEL=myCustomModele:latest
+MODEL=myCustomModel:latest
 ```
 Restart the bot and that's it!
 Your bot is now running your custom personality!
+
