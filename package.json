@@ -1,14 +1,14 @@
 {
-  "name": "botdaveexplains",
+  "name": "discord-ai",
   "version": "1.0.0",
-  "description": "",
+  "description": "🤖 A Node.js Discord bot that connects users to a local Ollama LLM for real-time conversational AI experiences.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["discord", "ollama", "bot", "llm", "ai", "nodejs"],
+  "author": "Josh Lucas",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "discord.js": "^14.24.2",
